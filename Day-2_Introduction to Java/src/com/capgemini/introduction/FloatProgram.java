@@ -9,6 +9,7 @@ public class FloatProgram {
 		System.out.println("Enter the value of x:");
 		float x=s.nextFloat();
 		System.out.println(x);
+		s.close();
 
 	}
 
