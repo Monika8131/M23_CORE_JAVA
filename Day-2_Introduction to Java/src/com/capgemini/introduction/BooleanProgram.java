@@ -8,6 +8,7 @@ public class BooleanProgram {
 		Scanner s=new Scanner(System.in);
 		boolean a=s.nextBoolean();
 		System.out.println(a);
+		s.close();
 
 	}
 

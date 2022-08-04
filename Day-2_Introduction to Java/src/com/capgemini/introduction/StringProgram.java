@@ -11,6 +11,7 @@ public class StringProgram {
 		//String str=s.next();
 		String str=s.nextLine();
 		System.out.println(str);
+		s.close();
 
 	}
 

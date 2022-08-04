@@ -13,6 +13,7 @@ public class CharProgram {
 		//run time input
 		char x=s.next().charAt(0);
 		System.out.println("The character is x:" +x);
+		s.close();
 		
 
 	}

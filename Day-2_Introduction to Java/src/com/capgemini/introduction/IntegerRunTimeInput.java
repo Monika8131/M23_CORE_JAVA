@@ -9,6 +9,7 @@ public class IntegerRunTimeInput {
 		System.out.println("Enter the value of x:");
 		int x=s.nextInt();
 		System.out.println(x);
+		s.close();
 
 	}
 
