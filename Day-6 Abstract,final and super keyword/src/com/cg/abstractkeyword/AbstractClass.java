@@ -25,9 +25,9 @@ public class AbstractClass {
 		 //Flower l=new Flower();
 		 */
 		Flower l=new Lily();
-		l.print();
 		l.accept();
-
+		l.print();
+		
 	}
 
 }
