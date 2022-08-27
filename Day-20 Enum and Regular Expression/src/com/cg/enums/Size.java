@@ -1,5 +1,5 @@
 package com.cg.enums;
-//to demonstrate that Enum implements its interface
+//to demonstrate that Enum implements the interface
 public enum Size implements PizzaSize
 {
 	SMALL,MEDIUM,LARGE,EXTRALARGE;

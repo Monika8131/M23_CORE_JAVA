@@ -19,7 +19,7 @@ public class SplitMethodExample {
 		{
 			System.out.print(i+" ");
 		}
-
+		s.close();
 	}
 
 }

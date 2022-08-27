@@ -1,7 +1,7 @@
 package com.cg.enums;
 
 import java.util.Scanner;
-
+//Example on enum with switch-Case
 enum Movie
 {
 	//enum constants
@@ -18,7 +18,7 @@ public class EnumWithSwitchCase
 		this.movie=movie;
 	}
 	
-	//spring switch to display the actor of the constants(movie)
+	//using switch to display the actor of the constants(movie)
 	public void display()
 	{
 		switch(movie)
@@ -44,7 +44,7 @@ public class EnumWithSwitchCase
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the movie name that you want to display");
 		String str=s.nextLine();
-		//valueOf(); to get the constant whose value is passed as an argument
+		//valueOf();- to get the constant whose value is passed as an argument while calling this method
 		EnumWithSwitchCase obj=new EnumWithSwitchCase(Movie.valueOf(str));
 		obj.display();
 		

@@ -24,6 +24,9 @@ public class PatternSyntaxExceptionExample
 		{
 			System.out.println("Description: "+e.getDescription());
 			System.out.println("Description: "+e.getIndex());
+			System.out.println("Index: "+ e.getIndex());
+			System.out.println("Message: "+ e.getMessage());
+			System.out.println("Pattern: "+ e.getPattern());
 		}
 	}
 
