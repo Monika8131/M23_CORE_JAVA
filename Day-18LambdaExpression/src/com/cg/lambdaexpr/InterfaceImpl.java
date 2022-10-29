@@ -14,7 +14,7 @@ public class InterfaceImpl {
 		//The target type of this expression must be a functional interface
 		C obj=()->
 		{
-			System.out.println("Functional interface implementation without\" +\"Lambda Expression");
+			System.out.println("Functional interface implementation without\" + \"Lambda Expression");
 		};
 		obj.display();
 

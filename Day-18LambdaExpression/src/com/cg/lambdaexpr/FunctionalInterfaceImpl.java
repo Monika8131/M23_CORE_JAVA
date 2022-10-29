@@ -26,7 +26,7 @@ public class FunctionalInterfaceImpl {
 		//2. length of the code is decreased using lambda expression
 		A obj=()->
 		{
-			System.out.println("Functional interface implementation without" +"Lambda Expression");
+			System.out.println("Functional interface implementation without " +"Lambda Expression");
 		};
 		obj.print();
 
